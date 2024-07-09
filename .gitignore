@@ -22,3 +22,4 @@ uploads/
 
 # PyCharm
 .idea/
+.env
