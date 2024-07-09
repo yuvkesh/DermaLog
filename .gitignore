@@ -1,25 +1,5 @@
-# Python
-__pycache__/
-*.py[cod]
-*.class
-
-# Virtual Environment
 venv/
-ENV/
-
-# Flask
-instance/
-.webassets-cache
-
-# Uploads
-uploads/
-
-# Environment variables
+__pycache__/
+*.pyc
 .env
-
-# macOS
 .DS_Store
-
-# PyCharm
-.idea/
-.env
