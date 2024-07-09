@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DermaLog - AI Skin Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        form {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+        button {
+            background: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+        .whatsapp-link {
+            display: inline-block;
+            margin-top: 20px;
+            background: #25D366;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .whatsapp-link:hover {
+            background: #128C7E;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://img.freepik.com/free-vector/doctor-character-background_1270-84.jpg" alt="Doctor Logo" class="logo">
+    <h1>Welcome to DermaLog</h1>
+    <p>Upload a skin image for AI-powered analysis</p>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Analyze Image</button>
+    </form>
+    <a href="https://wa.me/+972526414555" class="whatsapp-link" target="_blank">Call a Doctor on WhatsApp</a>
+</body>
+</html>
